@@ -85,7 +85,7 @@ const galaxyParameters = {
 };
 
 const defaultHeartImages = [
-  "images/img1.jpg"
+  "images/img.jpg"
 ];
 
 const heartImages = [
