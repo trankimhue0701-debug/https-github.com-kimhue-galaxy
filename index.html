@@ -1,29 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Galaxy with Zoom Effect</title>
-    <link rel="stylesheet" href="style.css">
-    <script type="importmap">
-    {
-      "imports": {
-        "three": "https://unpkg.com/three@0.152.2/build/three.module.js",
-        "three/addons/controls/OrbitControls.js": "https://unpkg.com/three@0.152.2/examples/jsm/controls/OrbitControls.js",
-        "three/examples/jsm/loaders/FontLoader.js": "https://unpkg.com/three@0.152.2/examples/jsm/loaders/FontLoader.js",
-        "three/examples/jsm/geometries/TextGeometry.js": "https://unpkg.com/three@0.152.2/examples/jsm/geometries/TextGeometry.js"
-      }
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Galaxy with Zoom Effect</title>
+  <link rel="stylesheet" href="style.css">
+  <script type="importmap">
+  {
+    "imports": {
+      "three": "https://unpkg.com/three@0.152.2/build/three.module.js",
+      "three/addons/controls/OrbitControls.js": "https://unpkg.com/three@0.152.2/examples/jsm/controls/OrbitControls.js",
+      "three/examples/jsm/loaders/FontLoader.js": "https://unpkg.com/three@0.152.2/examples/jsm/loaders/FontLoader.js",
+      "three/examples/jsm/geometries/TextGeometry.js": "https://unpkg.com/three@0.152.2/examples/jsm/geometries/TextGeometry.js"
     }
-    </script>
+  }
+  </script>
 </head>
-    
-    <body>
+
+<body>
   <div id="container"></div>
 
   <audio id="bg-music" autoplay loop>
-   <source src="" type="audio/mpeg" />
+    <source src="" type="audio/mpeg" />
   </audio>
-  
+
   <div id="landscape-warning">
     <div class="warning-content">
       <div class="rotate-icon"></div>
@@ -32,10 +32,11 @@
       <div class="stars-bg"></div>
     </div>
   </div>
-  
+
   <div id="dark-overlay"></div>
   <div id="info"></div>
 
-  <!-- chỉ cần cái này -->
+  <!-- Chỉ giữ lại cái này -->
   <script type="module" src="script.js"></script>
 </body>
+</html>
