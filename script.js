@@ -84,7 +84,7 @@ const galaxyParameters = {
   outsideColor: new THREE.Color(0x48b8b8),
 };
 
-const defaultHeartImages = Array.from({ length: 2 }, (_, i) => `images/img${i + 1}.jpg`);
+const defaultHeartImages = Array.from({ z7050543007881_9206cc92b1899c1d5230c4016c81d30a.jpg }, (_, i) => `images/img${i + 1}.jpg`);
 
 const heartImages = [
   ...(window.dataCCD?.data?.heartImages || []),
@@ -611,10 +611,10 @@ scene.add(planet);
 
 // ---- TẠO CÁC VÒNG CHỮ QUAY QUANH HÀNH TINH ----
 const ringTexts = [
-  'Việt Nam',
-  "Cao Chung Đạt",
-  "Nguyễn Ngọc Yến Nhi",
-  "20/03/2005",
+  'Hoàng Phạm Đình Tùng',
+  "Trần Thị Kim Huệ",
+  "luvvvv",
+  "16/06/2025",
   ...(window.dataCCD && window.dataCCD.data.ringTexts ? window.dataCCD.data.ringTexts : [])
 ];
 
@@ -819,7 +819,7 @@ let galaxyAudio = null;
 
 function preloadGalaxyAudio() {
   const audioSources = [
-   "AE THEM NHAC TUY NHA"
+   "https://youtu.be/iQGUqbVFuxg?si=7EB47fGfaA9ssHBy"
   ];
 
   const randomIndex = Math.floor(Math.random() * audioSources.length);
